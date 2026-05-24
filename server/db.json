@@ -1,0 +1,157 @@
+{
+  "settings": {
+    "churchName": "Holy Faith BCP Church",
+    "tagline": "WELCOME TO OUR COMMUNITY",
+    "description": "A place of peace, faith, and belonging — where every soul is welcome in  Santa Fe.",
+    "heroBgImage": "/uploads/church-media-1779521444434-351793923.jpg",
+    "logoImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150",
+    "aboutTitle": "Faith rooted in love & service",
+    "aboutQuote": "Come to me, all you who are weary and burdened, and I will give you rest.",
+    "aboutQuoteSource": "Matthew 11:28",
+    "aboutText": "Holy Faith BCP Church is a community united in worship, prayer, and fellowship. We welcome all who seek God's grace — whether you are returning or finding faith for the first time.",
+    "aboutImage": "https://images.unsplash.com/photo-1478147427282-58a87a120781?auto=format&fit=crop&q=80&w=800",
+    "aboutQuoteBanner": "For where two or three gather in my name, there am I with them.",
+    "aboutQuoteBannerSource": "Matthew 18:20",
+    "storyTitle": "Our Story & Mission",
+    "storyText": "Holy Faith BCP Church was founded on the belief that every person deserves a spiritual home — a place where faith is nurtured, community is built, and God's love is made tangible in everyday life.\n\nWe follow the Book of Common Prayer tradition, grounded in Scripture, enriched by centuries of worship, and alive to the Spirit's movement today. Our liturgy is both ancient and accessible, connecting us to the worldwide Body of Christ.\n\nWhether you have walked with faith for decades or are taking your very first steps, you will find a home here — in prayer, in service, and in one another.",
+    "contactAddress": "Villaceran St., Poblacion,  Santa Fe, Cebu, 6047",
+    "contactPhone": "+63 34 123 4567",
+    "contactEmail": "info@holyfaithbcp.org",
+    "facebookUrl": "https://facebook.com",
+    "youtubeUrl": "https://youtube.com",
+    "liveStreamUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FYOUR_PAGE%2Fvideos%2FYOUR_VIDEO_ID%2F&show_text=false&width=560",
+    "watchPartyUrl": "https://meet.google.com/your-watch-party-link",
+    "watchPartyDate": "Sunday after 9:30 AM worship",
+    "recordedServices": [
+      {
+        "id": "1",
+        "title": "Sunday Worship Service",
+        "date": "May 18, 2026",
+        "description": "A full service with music, prayers, and the sermon from last Sunday.",
+        "url": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+      },
+      {
+        "id": "2",
+        "title": "Midweek Prayer Gathering",
+        "date": "May 14, 2026",
+        "description": "A time of prayer, scripture, and fellowship for our community.",
+        "url": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+      },
+      {
+        "id": "3",
+        "title": "Easter Celebration",
+        "date": "April 7, 2026",
+        "description": "Highlights from our Easter worship service and message.",
+        "url": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+      }
+    ]
+  },
+  "ministries": [
+    {
+      "id": "1",
+      "title": "Bible Study",
+      "description": "Weekly deep dives into Scripture for all ages and backgrounds. Wednesdays at 7 PM.",
+      "icon": "BookOpen"
+    },
+    {
+      "id": "2",
+      "title": "Youth Ministry",
+      "description": "A vibrant space for young people to explore faith, build friendships, and grow in Christ.",
+      "icon": "Users"
+    },
+    {
+      "id": "3",
+      "title": "Women's Fellowship",
+      "description": "Monthly gatherings of encouragement, prayer, and sisterhood open to all women.",
+      "icon": "Heart"
+    },
+    {
+      "id": "4",
+      "title": "Choir & Worship",
+      "description": "Lead the congregation in praise. Rehearsals every Saturday morning at 9 AM.",
+      "icon": "Music"
+    },
+    {
+      "id": "5",
+      "title": "Outreach",
+      "description": "Serving our local community through food drives, visitations, and charity work.",
+      "icon": "Globe"
+    },
+    {
+      "id": "6",
+      "title": "Children's Church",
+      "description": "Nurturing the faith of our youngest members with age-appropriate worship and learning.",
+      "icon": "Baby"
+    },
+    {
+      "id": "1779529359550",
+      "title": "Production Team",
+      "description": "We are the team handle the Ligth and lyrics\n",
+      "icon": "Flame"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "title": "Sunday Holy Eucharist",
+      "date": "2026-05-25",
+      "time": "7:00 AM & 9:30 AM",
+      "location": "Main Sanctuary",
+      "tag": "WORSHIP",
+      "description": "Join us for our main Sunday worship services with Communion."
+    },
+    {
+      "id": "2",
+      "title": "Midweek Bible Study",
+      "date": "2026-05-28",
+      "time": "7:00 PM",
+      "location": "Fellowship Hall",
+      "tag": "STUDY",
+      "description": "Weekly study and discussion of the scriptures."
+    },
+    {
+      "id": "3",
+      "title": "Community Outreach Day",
+      "date": "2026-06-01",
+      "time": "8:00 AM",
+      "location": "Church Grounds",
+      "tag": "OUTREACH",
+      "description": "Serving our neighbors together. Bring the family!"
+    },
+    {
+      "id": "4",
+      "title": "Youth Ministry Camp",
+      "date": "2026-06-08",
+      "time": "All day",
+      "location": "Church Hall",
+      "tag": "YOUTH",
+      "description": "Grades 7–12 summer fellowship camp."
+    },
+    {
+      "id": "5",
+      "title": "Women's Fellowship Gathering",
+      "date": "2026-06-15",
+      "time": "3:00 PM",
+      "location": "Parish Room",
+      "tag": "FELLOWSHIP",
+      "description": "A time of prayer and shared fellowship for the women of the parish."
+    }
+  ],
+  "messages": [
+    {
+      "id": "1779614889231",
+      "createdAt": "2026-05-24T09:28:09.231Z",
+      "read": false,
+      "name": "Justine",
+      "email": "justinebatuhan017@gmail.com",
+      "subject": "Wala ",
+      "message": "Okay hahahahaha"
+    }
+  ],
+  "users": [
+    {
+      "username": "admin",
+      "passwordHash": "$2a$10$OHTniy2Em7kek96aY0YoAOmC.aLinodwsBvrcnL9yHHVSbuPfXE7K"
+    }
+  ]
+}
