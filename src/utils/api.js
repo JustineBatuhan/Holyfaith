@@ -1,6 +1,8 @@
 // API utility for client requests
-// Requests go to same origin because Vite proxy routes /api and /uploads in dev,
-// and Express serves the production React build in prod.
+// In development: uses Vite proxy (if configured)
+// In production on Vercel: uses relative /api paths
+
+const API_BASE = import.meta.env.VITE_API_URL || '/api';
 
 export async function apiRequest(endpoint, options = {}) {
   const token = localStorage.getItem('admin_token');
@@ -19,7 +21,9 @@ export async function apiRequest(endpoint, options = {}) {
     headers['Authorization'] = `Bearer ${token}`;
   }
 
-  const response = await fetch(endpoint, {
+  const url = endpoint.startsWith('http') ? endpoint : `${API_BASE}${endpoint}`;
+
+  const response = await fetch(url, {
     ...options,
     headers
   });
@@ -44,7 +48,7 @@ export async function uploadImage(file) {
   const formData = new FormData();
   formData.append('image', file);
 
-  return apiRequest('/api/upload', {
+  return apiRequest('/upload', {
     method: 'POST',
     body: formData
   });
