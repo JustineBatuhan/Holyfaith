@@ -1,9 +1,6 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "env": {
-    "JWT_SECRET": "@JWT_SECRET"
-  },
   "functions": {
     "api/**/*.js": {
       "memory": 1024,
